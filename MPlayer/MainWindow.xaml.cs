@@ -35,8 +35,10 @@ namespace MPlayer
             while (true)
             {
                 //Console.Beep((int)Math.Abs(Math.Sin(x * 10) * 600) + 200, 250);
-                Console.Beep((int)(Math.Sin(x * 30) + Math.Cos(x * 50)) * 600 + 600, 500);
-
+                Console.Beep((int)(Math.Sin(x * 30) + Math.Cos(x * 50)) * 600 + 637, 500);
+                Console.Beep(37, 500);
+                Console.Beep((int)(Math.Sin(x * 30) + Math.Cos(x * 50)) * 600 + 637, 500);
+                Console.Beep(37, 500);
                 x++;
             }
         }
