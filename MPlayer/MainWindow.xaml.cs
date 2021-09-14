@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Media;
+using System.Threading;
 
 namespace MPlayer
 {
@@ -31,16 +32,50 @@ namespace MPlayer
 
         private void Pause_Click(object sender, RoutedEventArgs e)
         {
-            int x = 0;
-            while (true)
-            {
-                //Console.Beep((int)Math.Abs(Math.Sin(x * 10) * 600) + 200, 250);
-                Console.Beep((int)(Math.Sin(x * 30) + Math.Cos(x * 50)) * 600 + 637, 500);
-                Console.Beep(37, 500);
-                Console.Beep((int)(Math.Sin(x * 30) + Math.Cos(x * 50)) * 600 + 637, 500);
-                Console.Beep(37, 500);
-                x++;
-            }
+
+            //Console.Beep(x*50, 250);
+            Console.Beep((int)637, 500);
+            Console.Beep((int)37, 500);
+
+            Console.Beep((int)637, 500);
+            Console.Beep((int)37, 500);
+
+            Console.Beep((int)637, 500);
+            Console.Beep((int)37, 500);
+
+            Console.Beep((int)637, 500);
+            Console.Beep((int)37, 500);
+
+
+
+            Console.Beep((int)637, 500);
+            Console.Beep((int)137, 500);
+
+            Console.Beep((int)637, 500);
+            Console.Beep((int)137, 500);
+
+            Console.Beep((int)637, 500);
+            Console.Beep((int)137, 500);
+
+            Console.Beep((int)637, 500);
+            Console.Beep((int)137, 500);
+
+                /*Console.Beep((int)637, 500);
+                Console.Beep((int) 637, 1000);
+                Thread.Sleep(250);
+                Console.Beep((int) 637, 500);
+                Thread.Sleep(250);
+                Console.Beep((int)637, 500);
+                Thread.Sleep(1000);
+                Console.Beep((int)637, 500);
+                Thread.Sleep(500);*/
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Console.Beep((int)837, 500);
+            
+
         }
     }
 }
