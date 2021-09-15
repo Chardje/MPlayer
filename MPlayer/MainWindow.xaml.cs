@@ -77,5 +77,37 @@ namespace MPlayer
             
 
         }
+
+        private void Music_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < 4; i +=1)
+            {
+                Console.Beep(200, 500);
+                Console.Beep(300, 500);
+                Console.Beep(400, 500);
+                Console.Beep(500, 500);
+            }
+            for (int i = 0; i < 4; i += 1)
+            {
+                Console.Beep(300, 500);
+                Console.Beep(400, 500);
+                Console.Beep(500, 500);
+                Console.Beep(600, 500);
+            }
+            for (int i = 0; i < 4; i += 1)
+            {
+                Console.Beep(400, 500);
+                Console.Beep(500, 500);
+                Console.Beep(600, 500);
+                Console.Beep(700, 500);
+            }
+            for (int i = 0; i < 4; i += 1)
+            {
+                Console.Beep(400, 500);
+                Console.Beep(500, 500);
+                Console.Beep(600, 500);
+                Console.Beep(800, 500);
+            }
+        }
     }
 }
